@@ -11,6 +11,7 @@ body {
   font-family: var(--MainFont);
   height: 3000px;
 }
+/* Header Start */
 header {
   position: sticky;
   top: 0;
@@ -21,12 +22,22 @@ header {
 .container {
   width: calc(100%-122px);
   margin: auto;
+  
 }
-#ForHeaderContainer {
+.row{ 
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  gap: 40px;
+}
+.FRow{
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
+
+
 .logo{
     display: flex;
     gap: 5px;
@@ -36,7 +47,10 @@ header {
    
 }
 .logo a img{
+   
     width: 40px;
+
+flex-shrink: 0;
  
 }
 .logo a {
@@ -74,3 +88,64 @@ header {
     }
     
 }
+/* Header end */
+
+/* Footer Start */
+.footer{
+  background-color: #393E46;
+  color: #fff;
+  height: 200.744px;
+  padding: 20px 0;
+}
+.footer .FooterEnd ,.footer .FooterStart{
+  width: calc(100%-40px/2);
+}
+
+.FooterStart{
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+footer .FooterEnd .row{
+gap: 100px;
+align-items: flex-start;
+
+
+}
+#logoInFoteer {
+  width: 30px;
+}
+#FooterLogo a {
+  color:#F4F4F4;
+}
+
+.Icons-Fotter{
+  display: flex;
+  gap: 5px;
+}
+
+
+.Footer-p p{
+  font-family: var(--MainFont);
+font-size: 8.766px;
+font-style: normal;
+font-weight: 400;
+line-height: 9.885px; 
+}
+
+.icon{
+  width: 13.18px;
+  height: 13.18px;
+  flex-shrink: 0;
+  border: 0.412px solid #FFF;
+  padding: 3px;
+  box-sizing: content-box;
+}
+
+.footer-item a{
+  color: #FFF;
+}
+/* 14:00 */
