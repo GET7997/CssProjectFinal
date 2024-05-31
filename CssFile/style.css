@@ -20,7 +20,7 @@ header {
   padding: 20px 0;
 }
 .container {
-  width: calc(100%-122px);
+  width: calc(100% - 122px);
   margin: auto;
 }
 .row {
@@ -85,7 +85,183 @@ header {
   }
 }
 /* Header end */
+
 /* main */
+/* People Taking Course */
+.people {
+  background: linear-gradient(180deg, #545be8 0%, #272db0 100%);
+  height: 400px;
+  display: flex;
+}
+.right {
+  width: 50%;
+}
+.left {
+  margin-top: 70px;
+  width: 50%;
+
+  position: relative;
+}
+.Scour {
+  color: #f0c932;
+  font-size: 12px;
+}
+.left h1 {
+  color: #fff;
+  width: 250px;
+}
+.left p {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 10px;
+  color: #fff;
+  width: 240px;
+}
+.stat {
+  color: #f0c932;
+  margin-left: 15px;
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+.stat-down {
+  color: #fff;
+  font-size: 10px;
+  margin-left: 9px;
+  width: 209px;
+  display: flex;
+  justify-content: space-between;
+}
+#course1 {
+  color: #fff;
+  font-size: 10px;
+  position: absolute;
+  top: 233px;
+  left: 345px;
+}
+.right img {
+  margin-top: 20px;
+  margin-left: 60%;
+  width: 360px;
+}
+
+/* People Taking Course end */
+/* Availbe Coure start*/
+
+.BigCourse {
+  display: flex;
+}
+.conti {
+  width: calc(100% - 600px);
+  margin: auto;
+  display: flex;
+}
+.cours {
+  margin-top: 10px;
+  width: 50%;
+}
+
+.side {
+  width: 50%;
+}
+.line {
+  margin-left: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  display: flex;
+
+  gap: 20px;
+  justify-content: start;
+}
+.squre img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.squre {
+  border-radius: 10px;
+
+  position: relative;
+  background-color: #fff;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: 0px 8.237px 8.237px 0px rgba(0, 0, 0, 0.4);
+}
+.courseinfo {
+  position: absolute;
+  top: 0;
+  bottom: 67px;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.courseinfo span:first-of-type {
+  margin-top: 10px;
+  color: #fff;
+  background-color: #545be8;
+  padding: 5px;
+  font-size: 13px;
+}
+.courseinfo span:last-of-type {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-right: 5%;
+  margin-bottom: 10px;
+}
+
+.rowx {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowx h2 {
+  color: #000;
+  font-size: 18px;
+  margin-left: 10px;
+}
+.rowx span {
+  font-size: 8px;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+#teacher {
+  font-size: 11px;
+  margin-left: 10px;
+  color: #969696;
+}
+.divAvail {
+  margin-top: 40px;
+}
+.side h1 {
+  color: #000;
+}
+.side p {
+  width: 30%;
+  color: grey;
+  font-size: 10px;
+}
+.side button {
+  color: #fff;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10%;
+  -webkit-border-radius: 10%;
+  -moz-border-radius: 10%;
+  -ms-border-radius: 10%;
+  -o-border-radius: 10%;
+  border: none;
+  background-color: #545be8;
+}
+/* available Course End */
 .testimonials {
   margin-top: 40px;
   color: black;
@@ -189,3 +365,125 @@ footer .FooterEnd .row {
   color: #fff;
 }
 /* 14:00 */
+/*begin */
+.Begin{
+
+  margin-top: 130px;
+  
+  
+}
+.Begin img{
+  position: absolute;
+  top: 130px;
+  right: 500px;
+  width: 340px;
+}
+#beg{
+font-weight: bold;
+}
+
+.grey{
+  margin-left: 1%;
+  background-color: #F5F5F5;
+  
+}
+.Begin h1{
+  font-size: 40px;
+  color: #000;
+  width: 370px;
+}
+.Begin h1 span{
+  color: #545be8;
+}
+.co{
+  width: calc( 100% - 700px);
+  margin: auto; }
+  .squares{
+   
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  margin-right: 10px;
+  }
+  .sqr{
+    background-color: #272db0;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+  .sqr h1{
+    color: #fff;
+    margin-top: 3%;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 9px;
+  }
+  .sqr p{
+    color: #fff;
+    margin-left: 9px;
+    font-size: 9px;
+
+  }
+  .sqr img{
+    width: 50px;
+    margin-top: 30px;
+    margin-left: 10px;
+
+  }
+  .sahem{
+    margin-top: 20px;
+    margin-left: 1680px;
+  }
+  .sahem img{
+    width: 50px;
+  }
+  .grey p{
+    color: grey;
+    
+    
+  }
+  .q{
+    width: 700px;
+    font-size: 12px;
+  }
+ 
+  .grey button{
+    margin-right: 20px;
+    color: #fff;
+    font-weight: bold;
+    padding-block: 10px;
+    padding-inline: 20px;
+    background-color: #545be8;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    border: 0px ;
+    margin-left: 5px;
+}
+.grey img{
+  width: 20px;
+}
+.ff{
+  color: #000;
+}
+.middle{
+  position: absolute;
+  margin-top: 60px;
+}
+.middle h2{
+  color: #000;
+  font-size: 30px;
+  width: 200px;
+
+}
+.middle p {
+  width: 400px;
+
+
+}
